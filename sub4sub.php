@@ -64,7 +64,7 @@ if(empty($config['worker']) or empty($config['sleep'])){
       CURLOPT_TIMEOUT => 30,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "POST",
-      CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.Glw_BgBPDb5L-svOmMTIlHCttRz2LRRi2TPijv7ix7t9qDBpimO6Fgo8xtUCWL350lCdtJqlrzxQfELoR2f3ilEPniMlg6Lb5PIOMVokAQt1UzSPu2gEF5-TdV2Qug#,
+      CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.Glw_BgBPDb5L-svOmMTIlHCttRz2LRRi2TPijv7ix7t9qDBpimO6Fgo8xtUCWL350lCdtJqlrzxQfELoR2f3ilEPniMlg6Lb5PIOMVokAQt1UzSPu2gEF5-TdV2Q#",
       CURLOPT_HTTPHEADER => array(
         "Connection: Keep-Alive",
         "Host: zlcodesyt.websiteseguro.com",
