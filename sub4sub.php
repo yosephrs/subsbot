@@ -57,7 +57,7 @@ if(empty($config['worker']) or empty($config['sleep'])){
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://zlcodesyt.websiteseguro.com/iniciar.php",
+      CURLOPT_URL => "https://inscritosyt.websiteseguro.com/iniciar.php",
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => "",
       CURLOPT_MAXREDIRS => 10,
@@ -67,7 +67,7 @@ if(empty($config['worker']) or empty($config['sleep'])){
       CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.Glw_BgBPDb5L-svOmMTIlHCttRz2LRRi2TPijv7ix7t9qDBpimO6Fgo8xtUCWL350lCdtJqlrzxQfELoR2f3ilEPniMlg6Lb5PIOMVokAQt1UzSPu2gEF5-TdV2Q#",
       CURLOPT_HTTPHEADER => array(
         "Connection: Keep-Alive",
-        "Host: zlcodesyt.websiteseguro.com",
+        "Host: inscritosyt.websiteseguro.com",
         "cache-control: no-cache"
       ),
     ));    
