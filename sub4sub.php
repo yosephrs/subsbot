@@ -25,14 +25,14 @@ if(empty($config['worker']) or empty($config['sleep'])){
 	$url 	= array(); 
 	for ($i=0; $i <$config['worker']; $i++) { 
         $urls[] = array(
-            'url' 	=> 'https://zlcodesyt.websiteseguro.com/iniciar.php',
+            'url' 	=> 'https://inscritosyt.websiteseguro.com/iniciar.php',
             'note' 	=> 'optional', 
         );
         $headers[] = array(
             'header' => array(
                 "Connection: Keep-Alive",
                 "Content-Type: application/x-www-form-urlencoded",
-                "Host: zlcodesyt.websiteseguro.com",
+                "Host: inscritosyt.websiteseguro.com",
                 "cache-control: no-cache"
                         ),
             'post' => '#tipo:5#<->#'.$ytid.''
