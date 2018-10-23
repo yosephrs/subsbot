@@ -32,10 +32,10 @@ if(empty($config['worker']) or empty($config['sleep'])){
             'header' => array(
                 "Connection: Keep-Alive",
                 "Content-Type: application/x-www-form-urlencoded",
-                "Host: inscritosyt.websiteseguro.com",
+                "Host: zlcodesyt.websiteseguro.com",
                 "cache-control: no-cache"
                         ),
-            'post' => '#tipo:7#<->#UCLP2sQUIaGISSC-unVLzr5A #####tk:ya29.Glw_BianfY-_djAJFMw6yKrpJMp-5qL8UrrCZJkaRJON5XhTCpZl5Wj-KPSNV3Du1eNr_MkPZVWHFwwDLTHkcKHghHY1DOfX5mcz5dotcHrExP433PtQ_a5VFKRfEg#.$ytid.''
+            'post' => '#tipo:5#<->#'.$ytid.''
           );
     }
     while(TRUE){
@@ -67,7 +67,7 @@ if(empty($config['worker']) or empty($config['sleep'])){
       CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.Gls9BsDwQDqUZAKzj0z4qnwMNHBNtZD6kr2Ze1UtcdXPqGLP5_Jz6eNRwa-jvi9phW1mlZUVxMHQnLblMumL0pVTewlRPNZ8_Fi8lgdA7WBuAiR037BNFROOFRlY#",
       CURLOPT_HTTPHEADER => array(
         "Connection: Keep-Alive",
-        "Host: inscritosyt.websiteseguro.com",
+        "Host: zlcodesyt.websiteseguro.com",
         "cache-control: no-cache"
       ),
     ));    
