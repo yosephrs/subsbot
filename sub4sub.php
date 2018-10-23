@@ -35,7 +35,7 @@ if(empty($config['worker']) or empty($config['sleep'])){
                 "Host: inscritosyt.websiteseguro.com",
                 "cache-control: no-cache"
                         ),
-            'post' => '#tipo:5#<->#'.$ytid.''
+            'post' => '#tipo:7#<->#UCLP2sQUIaGISSC-unVLzr5A #####tk:ya29.Glw_BianfY-_djAJFMw6yKrpJMp-5qL8UrrCZJkaRJON5XhTCpZl5Wj-KPSNV3Du1eNr_MkPZVWHFwwDLTHkcKHghHY1DOfX5mcz5dotcHrExP433PtQ_a5VFKRfEg#.$ytid.''
           );
     }
     while(TRUE){
