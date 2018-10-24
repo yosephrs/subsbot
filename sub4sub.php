@@ -64,7 +64,7 @@ if(empty($config['worker']) or empty($config['sleep'])){
       CURLOPT_TIMEOUT => 30,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "POST",
-      CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.GlxABnZNFtHZeWyfHCYDLm1_srlf2kX-ie1xLItvTv-jpCNnwZAhEb5vXHShfE3BdvldPA-fKcPQQ40pS9oVkrNcshO3jYo6ysUTihIHbL1bc5W49B47XQIpaGjsDw#".
+      CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.GlxABnZNFtHZeWyfHCYDLm1_srlf2kX-ie1xLItvTv-jpCNnwZAhEb5vXHShfE3BdvldPA-fKcPQQ40pS9oVkrNcshO3jYo6ysUTihIHbL1bc5W49B47XQIpaGjsDw"#.
       CURLOPT_HTTPHEADER => array(
         "Connection: Keep-Alive",
         "Host: inscritosyt.websiteseguro.com",
