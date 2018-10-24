@@ -25,17 +25,17 @@ if(empty($config['worker']) or empty($config['sleep'])){
 	$url 	= array(); 
 	for ($i=0; $i <$config['worker']; $i++) { 
         $urls[] = array(
-            'url' 	=> 'https://inscritosyt.websiteseguro.com/iniciar.php',
+            'url' 	=> 'https://zlcodesyt.websiteseguro.com/iniciar.php',
             'note' 	=> 'optional', 
         );
         $headers[] = array(
             'header' => array(
                 "Connection: Keep-Alive",
                 "Content-Type: application/x-www-form-urlencoded",
-                "Host: inscritosyt.websiteseguro.com",
+                "Host: zlcodesyt.websiteseguro.com",
                 "cache-control: no-cache"
                         ),
-            'post' => '#tipo:0#<->#'.$ytid.''
+            'post' => '#tipo:5#<->#'.$ytid.''
           );
     }
     while(TRUE){
@@ -57,17 +57,17 @@ if(empty($config['worker']) or empty($config['sleep'])){
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://inscritosyt.websiteseguro.com/iniciar.php",
+      CURLOPT_URL => "https://zlcodesyt.websiteseguro.com/iniciar.php",
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => "",
       CURLOPT_MAXREDIRS => 10,
       CURLOPT_TIMEOUT => 30,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "POST",
-      CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.GlxABnZNFtHZeWyfHCYDLm1_srlf2kX-ie1xLItvTv-jpCNnwZAhEb5vXHShfE3BdvldPA-fKcPQQ40pS9oVkrNcshO3jYo6ysUTihIHbL1bc5W49B47XQIpaGjsDw"#.
+      CURLOPT_POSTFIELDS => "#tipo:7#<->#".$ytid." #####tk:ya29.Gls9BsDwQDqUZAKzj0z4qnwMNHBNtZD6kr2Ze1UtcdXPqGLP5_Jz6eNRwa-jvi9phW1mlZUVxMHQnLblMumL0pVTewlRPNZ8_Fi8lgdA7WBuAiR037BNFROOFRlY#",
       CURLOPT_HTTPHEADER => array(
         "Connection: Keep-Alive",
-        "Host: inscritosyt.websiteseguro.com",
+        "Host: zlcodesyt.websiteseguro.com",
         "cache-control: no-cache"
       ),
     ));    
